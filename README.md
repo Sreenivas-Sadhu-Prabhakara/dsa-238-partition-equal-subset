@@ -12,6 +12,13 @@ The reduction is the whole problem: two equal halves must each sum to total/2, s
 
 **Complexity:** O(n · total/2) time, O(total/2) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
